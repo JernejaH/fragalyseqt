@@ -25,6 +25,7 @@ class FragalyseApp(QMainWindow, fragalyseqt.Ui_MainWindow):
 
 
 def main():
+    print("cat")
     app = QApplication(argv)
     form = FragalyseApp()
     form.show()
